@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Zhaoxi.Controls.Components
 {
     /// <summary>
-    /// CoolingTower.xaml 的交互逻辑
+    /// CoolingPump.xaml 的交互逻辑
     /// </summary>
-    public partial class CoolingTower : ComponentBase
+    public partial class CoolingPump : UserControl
     {
-        public CoolingTower()
+        public CoolingPump()
         {
             InitializeComponent();
         }

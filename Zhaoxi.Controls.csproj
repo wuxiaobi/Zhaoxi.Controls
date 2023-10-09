@@ -52,6 +52,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Components\CoolingPump.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Components\CoolingTower.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -60,6 +64,10 @@
   <ItemGroup>
     <Compile Include="CircularProgressBar.xaml.cs">
       <DependentUpon>CircularProgressBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ComponentBase.cs" />
+    <Compile Include="Components\CoolingPump.xaml.cs">
+      <DependentUpon>CoolingPump.xaml</DependentUpon>
     </Compile>
     <Compile Include="Components\CoolingTower.xaml.cs">
       <DependentUpon>CoolingTower.xaml</DependentUpon>
