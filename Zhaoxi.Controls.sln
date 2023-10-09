@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoxi.Controls", "Zhaoxi.Controls.csproj", "{9A4462B0-EDA0-42E3-A26E-EED651833F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A4462B0-EDA0-42E3-A26E-EED651833F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4462B0-EDA0-42E3-A26E-EED651833F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4462B0-EDA0-42E3-A26E-EED651833F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4462B0-EDA0-42E3-A26E-EED651833F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD291C44-6892-4B99-95E4-E1F262395ECF}
+	EndGlobalSection
+EndGlobal
