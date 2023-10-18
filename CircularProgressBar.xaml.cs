@@ -59,6 +59,7 @@ namespace Zhaoxi.Controls
         {
             this.UpdateValue();
         }
+        
 
         private static void OnPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
