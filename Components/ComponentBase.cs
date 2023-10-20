@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace Zhaoxi.Controls.Components
 {
@@ -20,6 +21,18 @@ namespace Zhaoxi.Controls.Components
             set
             {
                 _isSelected = value;
+                if (value)
+                {
+                   var parent=VisualTreeHelper.GetParent(this) as Grid;
+                    if (parent !=null)
+                    {
+                       foreach (var item in parent.Children)
+                        {
+                            if (item is ComponentBase)
+                                (item as ComponentBase).IsSelected = false;
+                        }
+                    }
+                }
                 VisualStateManager.GoToState(this, value ? "SelectedState" : "UnselectedState", false);
             }
         }
