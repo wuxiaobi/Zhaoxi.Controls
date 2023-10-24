@@ -50,7 +50,7 @@ namespace Zhaoxi.Controls.Components
         private static void OnRunningStateChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
             bool state = (bool)e.NewValue;
-            VisualStateManager.GoToState(d as ComponentBase, state ? "SelectedState" : "UnselectedState", false);
+            VisualStateManager.GoToState(d as ComponentBase, state ? "RunState" : "StopState", false);
         }
 
 

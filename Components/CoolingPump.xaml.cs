@@ -18,7 +18,7 @@ namespace Zhaoxi.Controls.Components
     /// <summary>
     /// CoolingPump.xaml 的交互逻辑
     /// </summary>
-    public partial class CoolingPump : UserControl
+    public partial class CoolingPump : ComponentBase
     {
         public CoolingPump()
         {

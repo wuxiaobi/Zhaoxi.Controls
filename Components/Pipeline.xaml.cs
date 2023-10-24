@@ -41,14 +41,14 @@ namespace Zhaoxi.Controls.Components
         }
 
 
-        public Brush LiguidColor
+        public Brush LiquidColor
         {
-            get { return (Brush)GetValue(LiguidColorProperty); }
-            set { SetValue(LiguidColorProperty, value); }
+            get { return (Brush)GetValue(LiquidColorProperty); }
+            set { SetValue(LiquidColorProperty, value); }
         }
 
-        public static readonly DependencyProperty LiguidColorProperty =
-            DependencyProperty.Register("LiguidColor", typeof(Brush), typeof(Pipeline),
+        public static readonly DependencyProperty LiquidColorProperty =
+            DependencyProperty.Register("LiquidColor", typeof(Brush), typeof(Pipeline),
                 new PropertyMetadata(Brushes.Orange) );
 
 

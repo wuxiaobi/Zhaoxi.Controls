@@ -25,7 +25,7 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        <Border>
+        <Border CornerRadius="{Binding CapRadius,RelativeSource={RelativeSource AncestorType=UserControl,Mode=FindAncestor}}">
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFCBCBCB" Offset="0.8"/>
@@ -33,11 +33,10 @@
                     <GradientStop Color="#FFCBCBCB" Offset="0.1"/>
                 </LinearGradientBrush>
             </Border.Background>
-            <Border Margin="2" Name="border"
-                    CornerRadius="{Binding CapRadius,RelativeSource={RelativeSource AncestorType=UserControl,Mode=FindAncestor}}">
+            <Border Margin="2" Name="border">
                 <Line X1="0" Y1="0" X2="{Binding RelativeSource={RelativeSource Self},Path=ActualWidth}"
                       Y2="0" 
-                      Stroke="{Binding LiguidColor,RelativeSource={RelativeSource AncestorType=UserControl,Mode=FindAncestor}}"
+                      Stroke="{Binding LiquidColor,RelativeSource={RelativeSource AncestorType=UserControl,Mode=FindAncestor}}"
                       StrokeThickness="{Binding ElementName=border,Path=ActualHeight}"
                       StrokeDashArray="2,3"
                       VerticalAlignment="Center"
